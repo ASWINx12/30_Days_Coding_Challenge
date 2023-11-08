@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+
+int main() 
+{
+    int t;
+    cin>>t;
+    while(t--)
+    {
+        int a;
+        cin>>a;
+        int kilometer;
+        kilometer=a*10;
+        cout<<kilometer<<endl;
+    }
+	return 0;
+}
